@@ -1,0 +1,41 @@
+body,html{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.conteudo{
+    width: 1000px;
+    display:flex;
+    flex-direction: row;
+    background-color: silver;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding: 20px;
+    border: 1px solid blue;
+}
+
+
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+
